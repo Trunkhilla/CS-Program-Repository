@@ -1,0 +1,19 @@
+Briefly summarize The Gaming Room client and their software requirements. Who was the client? The client was "The Gaming Room". They wanted to expand their existing Android-only game, "Draw It or Lose It," into a web-based, multi-platform service. The main requirements were to ensure that only one instance of the game service could run at a time and that all game, team, and player names were unique.
+
+What type of software did they need? They needed a foundational Java backend application to serve as the game's server-side logic. They also needed a complete software design document that evaluated operating platforms and provided recommendations for building and deploying this new distribution system.
+
+What did you do particularly well in developing this documentation? I did well in translating the client's requests into specific, technical design decisions. For example, the "Domain Model" section clearly connected the client's needs to object-oriented principles like inheritance and the Singleton pattern.
+
+What about the process of working through a design document did you find helpful when developing the code? Having the UML diagram in the design document first was incredibly helpful. It provided a clear blueprint for the code, which made it much faster to implement the relationships between classes, especially the Entity, Game, Team, and Player inheritance structure.
+
+If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it? I would revise my initial code for the GameService class. In the first draft, I had repetitive code for searching by name in both the addGame and getGame methods. I later improved this by refactoring addGame to call the getGame method first, which made the code cleaner and more efficient.
+
+How did you interpret the user's needs and implement them into your software design? I translated each of the client's needs directly into a software pattern or principle. The one instance requirement became the Singleton pattern for GameService. The unique names requirement was implemented using the Iterator pattern to search for duplicates. The common structure of games, teams, and players was implemented using inheritance from a base Entity class.
+
+Why is it so important to consider the user's needs throughout the design process? It's critical because the user's needs define the entire purpose of the software. If you don't focus on their needs, you can build something that works technically but doesn't solve their problem, which results in a failed project.
+
+How did you approach designing software? I approached it by first understanding the core requirements and constraints. Then, I used the UML diagram to plan the classes and their relationships before writing code. Finally, I implemented that design, starting with the base classes and building up to the more complex management classes.
+
+What techniques or strategies would you use in the future to analyze and design a similar application? I would use the same design first approach of creating a UML diagram to visualize the system. I would also continue to apply core OOP principles like inheritance and encapsulation, and I would always look for opportunities to use established design patterns like Singleton and Iterator, as they solved the requirements very effectively.
+
+
