@@ -1,0 +1,12 @@
+How do I interpret user needs and implement them into a program? How does creating "user stories" help with this? When looking at user needs, I try to focus on the actual business value or goal the user wants to accomplish, rather than just reading through technical specs. 
+Using "user stories" helps a lot with this because it frames the requirements directly from the user's point of view. When you pair these stories with specific Acceptance Criteria, it gives the developers and testers a very clear "Definition of Done." 
+It takes the guesswork out of the process and keeps everyone focused on the final user experience.
+
+How do I approach developing programs? What Agile processes do I hope to incorporate into my future development work? I try to approach development as a flexible, iterative process instead of a rigid, linear one. 
+Since client needs and market research can change suddenly, my goal is to write clean, adaptable code that can be updated without breaking the core application. 
+In the future, I definitely want to keep using Agile processes like Sprints and Daily Scrums. 
+Working in shorter cycles allows for constant testing and feedback, which helps prevent massive late-stage bugs and keeps the software relevant to what the client actually wants.
+What does it mean to be a good team member in software development? Being a good team member in software development really comes down to clear communication and adaptability.
+Because frameworks like Scrum are so collaborative, a solid team member asks questions early—like double-checking wireframes or data fields before coding starts—so the rest of the team doesn't hit a bottleneck.
+It also means respecting the different roles on the team while being ready to pivot and help out when sudden requirement changes or interruptions happen.
+
